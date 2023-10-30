@@ -1,2 +1,15 @@
 body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #0a4f70;
+}
+
+h1 {
+  background-color: aliceblue;
+  color: #e78383;
+  padding: 10px;
+  font-size: 3em;
+  border-radius: 5px;
 }
