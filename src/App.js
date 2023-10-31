@@ -1,4 +1,5 @@
 import Pessoa from "./components/Pessoa";
+import DizerNome from "./components/DizerNome";
 import "./App.css";
 
 function App() {
@@ -12,6 +13,8 @@ function App() {
         sexo="Masculino"
         profissao="Programador"
       />
+
+      <DizerNome nome={"Rodrigo"} idade={20} sexo="Masculino" />
     </div>
   );
 }
