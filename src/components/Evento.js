@@ -2,7 +2,7 @@ import Button from "./evento/Button";
 
 import styles from "../css/Evento.module.css";
 
-function Eventos(props) {
+function Eventos() {
   function metodo1() {
     alert("Este é o método 1!");
   }
