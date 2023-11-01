@@ -1,9 +1,11 @@
 import Styles from "../../css/Evento.module.css";
 
-function Button() {
+function Button(props) {
   return (
     <>
-      <button className={Styles.btn_metodo}>Ativar método!</button>
+      <button onClick={props.evento} className={Styles.btn_metodo}>
+        Ativar método!
+      </button>
     </>
   );
 }
