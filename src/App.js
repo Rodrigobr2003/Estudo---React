@@ -4,11 +4,17 @@ import Eventos from "./components/Evento";
 import Hook from "./components/Hook";
 import Render from "./components/Render";
 import RenderList from "./components/RenderList";
+import StateLift from "./components/StateLift";
+import Perfil from "./components/stateLift/Perfil";
+
+import { useState } from "react";
 
 import "./App.css";
 
 function App() {
   const lista = ["Banana", "Uva", "Melancia", "Morango"];
+
+  const [nome, setNome] = useState();
 
   return (
     <div>
@@ -30,6 +36,9 @@ function App() {
       <Render />
 
       <RenderList itens={lista} />
+
+      <StateLift setNome={setNome} />
+      <Perfil nome={nome} />
     </div>
   );
 }
