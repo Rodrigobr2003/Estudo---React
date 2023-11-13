@@ -19,3 +19,13 @@ h1 {
   font-size: 3em;
   border-radius: 5px;
 }
+
+.box {
+  margin-top: 20px;
+  background-color: azure;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 5px;
+}
